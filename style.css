@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.logo-img{
+    width: 168px;
+}
+
+.nav-items{
+
+    display: flex;
+    gap: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    font-size: 3rem;
+}
+
+.menu{
+    display: none;
+}
+
+@media(max-width:1000px) {
+    .menu{
+        display: block;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+}
+
